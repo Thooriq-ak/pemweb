@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+        body {
+              overflow-x: hidden;
+          }
+      </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="row">
+      <div class="col-3">
+        <table class="table table-borderless">
+          <tr>
+            <td><img src="IMG/Hp.avif" class="img-fluid" /></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-6">
+        <table class="table table-borderless">
+          <tr></tr>
+          <tr>
+            <td>Title Here</td>
+            <td>:</td>
+            <td>
+            <p>
+                Samsung Galaxy S23 Ultra
+            </p>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>:</td>
+            <td>
+                <p>Year : 2023</p>
+                <p>Model : S23 Ultra</p>
+                <p>Condition : New</p>
+            </td>
+          </tr>
+          <tr>
+            <td>Total Amount</td>
+            <td>:</td>
+            <td>
+                <p>Rp22.000.000</p>
+            </td>
+          </tr>
+          <tr>
+            <td>Payment Type</td>
+            <td>:</td>
+            <td>
+              <select id="bank">
+                <option>Payment Type</option>
+                <option>Visa Debit</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Account Holder</td>
+            <td>:</td>
+            <td>
+              <input class="form-control" type="text" placeholder="Name Here" />
+            </td>
+          </tr>
+          <tr>
+            <td>Transaction</td>
+            <td>:</td>
+            <td>
+              <select id="Transaction">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="3"></td>
+            <td>
+              <small>
+                * if the transaction is for 3 person, choose 3 from the drop
+                down list
+              </small>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" />
+              <small>Send to Mobile Phone </small>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" />
+              <small>Send to Email </small>
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Mobile Phone</td>
+            <td>:</td>
+            <td>
+              <input
+                class="form-control"
+                type="number"
+                placeholder="1234567890, 1234567891"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Send to Email</td>
+            <td>:</td>
+            <td>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="contoh@gmail.com"
+              />
+            </td>
+            <tr>
+            <td colspan="2"></td>
+            <td>
+              <a href="test.html">
+                <button type="button" class="btn btn-success" >Generate Nabr Link</button>
+              </a>
+              </td>
+            </tr>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

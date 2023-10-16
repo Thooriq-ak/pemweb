@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas Form Pemesanan</title>
+  </head>
+  <body>
+    <table border="5">
+      <tr>
+        <td width="1280px" align="center">Home</td>
+        <td width="1280px" align="center">Generate Link</td>
+        <td width="1280px" align="center">Transaction History</td>
+        <td width="1280px" align="center">Policy</td>
+        <td width="1280px" align="center">Logout</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td><img src="IMG/Hp.avif" width="400px" /></td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="Upload Image" /></td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <form>
+            <table>
+              <tr></tr>
+              <tr>
+                <td>Title Here</td>
+                <td>:</td>
+                <td>
+                  <input type="text" placeholder="Title Here" />
+                </td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td>:</td>
+                <td>
+                  <textarea
+                    cols="30"
+                    rows="5"
+                    maxlength="500"
+                    placeholder="Year  : 
+                                                                              Model : 
+                                                                              Condition :"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Account Number</td>
+                <td>:</td>
+                <td><input type="number" placeholder="123-456-789-0" /></td>
+              </tr>
+              <tr>
+                <td>Bank</td>
+                <td>:</td>
+                <td>
+                  <select id="bank">
+                    <option>Pilih Bank</option>
+                    <option value="BSI">BSI</option>
+                    <option value="BRI">BRI</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Account Holder</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Name Here" /></td>
+              </tr>
+              <tr>
+                <td>Transaction</td>
+                <td>:</td>
+                <td>
+                  <select id="Transaction">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <small>
+                    * if the transaction is for 3 person, choose 3 from the drop
+                    down list
+                  </small>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>
+                  <input type="checkbox" />
+                  <small>Send to Mobile Phone </small>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td><input type="checkbox" /> <small>Send to Email </small></td>
+              </tr>
+              <tr>
+                <td>Send to Mobile Phone</td>
+                <td>:</td>
+                <td>
+                  <input type="number" placeholder="1234567890, 1234567891" />
+                </td>
+              </tr>
+              <tr>
+                <td>Send to Email</td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh@gmail.com" /></td>
+              </tr>
+            </table>
+            <input type="submit" value="Generate Nabr Link" />
+          </form>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
