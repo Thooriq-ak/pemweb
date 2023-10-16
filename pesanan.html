@@ -2,22 +2,6 @@
 <html lang="en">
   <head>
     <title>Tugas Form Pemesanan</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      .column {
-        float: left;
-        width: 50%;
-        padding: 10px;
-        height: 300px;
-      }
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-    </style>
   </head>
   <body>
     <table border="5">
@@ -28,83 +12,93 @@
         <td width="1280px" align="center">About</td>
       </tr>
     </table>
-    <div class="row">
-      <div class="column" style="background-color: #ffffff ; width:35%">
-        <img src="IMG/Hp.avif" width="400px" />
-      </div>
+    
+
     <br /><br />
-    <table>
-        <form>
-      <tr>
-        <td>Title Here</td>
-        <td>:</td>
-        <td>Samsung Galaxy S23 Ultra</td>
-        <tr></tr>
-      </tr>
-      <tr>
-        <td>Description</td>
-        <td>:</td>
-        <td>
-          Year : 2023<br />
-          Model : S23 Ultra<br />
-          Condition : New
-        </td>
-        <tr></tr>
-      </tr>
-      <tr>
-        <td>Total Amount</td>
-        <td>:</td>
-        <td>Rp22.000.000</td>
-        <tr></tr>
-      </tr>
-      <td>Pay</td>
+
+<table>
+  <tr>
+    <td>
+      <img src="IMG/Hp.avif" width="400px" />
+    </td>
+    <td>
+      <table>
+    <form>
+    <tr>
+      <td>Title Here</td>
       <td>:</td>
-      <td>123-456-789-0</td>
-      <tr>
-        <td>Payment Type</td>
-        <td>:</td>
-        <td>
-          <select id="Payment Type">
-            <option>Payment Type</option>
-            <option value="BSI">Visa Debit</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td>Account Holder</td>
-        <td>:</td>
-        <td><input type="text" placeholder="Name Here" /></td>
-      </tr>
-      <tr>
-        <td>Account Number</td>
-        <td>:</td>
-        <td><input type="number" placeholder="123-456-789-0" /></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td><input type="checkbox" /> <small>Send to Mobile Phone </small></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td><input type="checkbox" /> <small>Send to Email </small></td>
-      </tr>
-      <tr>
-        <td>Send to Mobile Phone</td>
-        <td>:</td>
-        <td><input type="number" placeholder="1234567890, 1234567891" /></td>
-      </tr>
-      <tr>
-        <td>Send to Email</td>
-        <td>:</td>
-        <td><input type="text" placeholder="contoh@gmail.com" /></td>
-      </tr>
-    </table>
-    <br />
-    <center>
-      <input type="submit" value="Generate Nabr Link" />
+      <td>Samsung Galaxy S23 Ultra</td>
+      <tr></tr>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>:</td>
+      <td>
+        Year : 2023<br />
+        Model : S23 Ultra<br />
+        Condition : New
+      </td>
+      <tr></tr>
+    </tr>
+    <tr>
+      <td>Total Amount</td>
+      <td>:</td>
+      <td>Rp22.000.000</td>
+      <tr></tr>
+    </tr>
+    <td>Pay</td>
+    <td>:</td>
+    <td>123-456-789-0</td>
+    <tr>
+      <td>Payment Type</td>
+      <td>:</td>
+      <td>
+        <select id="Payment Type">
+          <option>Payment Type</option>
+          <option value="BSI">Visa Debit</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td>Account Holder</td>
+      <td>:</td>
+      <td><input type="text" placeholder="Name Here" /></td>
+    </tr>
+    <tr>
+      <td>Account Number</td>
+      <td>:</td>
+      <td><input type="number" placeholder="123-456-789-0" /></td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td><input type="checkbox" /> <small>Send to Mobile Phone </small></td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+      <td><input type="checkbox" /> <small>Send to Email </small></td>
+    </tr>
+    <tr>
+      <td>Send to Mobile Phone</td>
+      <td>:</td>
+      <td><input type="number" placeholder="1234567890, 1234567891" /></td>
+    </tr>
+    <tr>
+      <td>Send to Email</td>
+      <td>:</td>
+      <td><input type="text" placeholder="contoh@gmail.com" /></td>
+    </tr>
+  </table></td>
+  </tr>
+<table>
+    
+  <br />
+  
+  <center>
+    <a href="formpemesanan.html">
+      <button type="button">Generate Nabr Link</button>
+    </a>
     </center>
-</form>
+  </form>
+  
   </body>
 </html>
